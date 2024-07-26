@@ -6,11 +6,6 @@ let msg = document.querySelector("#msg");
 const tap = document.querySelector("#tap");
 const win = document.querySelector("#win");
 const Res = document.querySelector("#new");
-const Player1 = prompt("Enter Player - 1 Name");
-const Player2 = prompt("Enter Player - 2 Name");
-
-const O = Player1.substring(0,1);
-const X = Player2.substring(0,1);
   
 let turnO = true;
 
@@ -94,5 +89,11 @@ const showWinner = (winner) => {
   win.play(); 
   disableButtons();
 }
+
+const Player1 = prompt("Enter Player - 1 Name");
+const Player2 = prompt("Enter Player - 2 Name");
+
+const O = Player1.substring(0,1);
+const X = Player2.substring(0,1);
 
 
